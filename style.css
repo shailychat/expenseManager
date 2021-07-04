@@ -1,0 +1,111 @@
+html,body /* for view */
+{
+    height: 100%;
+}
+
+label /* label styling */
+{
+    user-select:none;
+}
+
+input[disabled]
+{
+    cursor: text !important; 
+}
+
+#banner_image  /* background image styling */
+{
+    padding-top:150px;
+    padding-bottom:200px;
+    text-align:center;
+    color:#f8f8f8;
+    background:url("img/bgs.jpg") no-repeat center center;
+    background-size:cover;
+    min-height: 610px;
+}
+#banner_content /* Content in a transperent box styling */
+{
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 1000px;
+    margin:auto;
+}
+footer /* footer styling */
+{
+    padding:10px 0;
+    background-color:#101010;
+    color:#9d9d9d;
+    bottom:0;
+    width:100%;
+}
+footer p /* footer and paragraph styling */
+{
+    cursor:none;
+}
+.backg /* background color of page */
+{
+    background-color:rgb(201, 255, 248);
+    min-height: 610px;
+} 
+.button1 /* button styling for new_plan page, */
+{
+    background-color: white;
+    color: #0a8065; /* Green */
+    border: 2px solid #0a8065; /* Green */
+    border-radius: 8px;
+    padding: 8px;
+}
+.right /* floating right styling */
+{
+    float: right;
+
+}
+.left /* floating left styling */
+{
+    float: left;
+}
+.rightmargin /* right bottom corner styling */
+{
+    margin: -50px 50px 0 0;
+}
+.glyphicon.glyphicon-plus-sign /* glyphicon styling */
+{
+    color: green;
+}
+
+.gre /* green color text styling */
+{
+    color:#0a902b; /* Green */
+}
+.blk /* black color text styling */
+{
+    color: black;
+}
+.rd /* red color text styling */
+{
+    color:red;
+}
+.panel-heading /* panel heading styling */
+{
+    font-size: 20px;
+    background-color:#0a8065 !important; /* Green */
+    color:white !important;
+}
+.hight1 /* for making the page responsive */
+{
+    min-height: 610px;
+}
+button:hover   /* button hover styling is given to make the button green when hover */
+{
+    background-color: #0a8065; /* Green */
+    color:white;
+    border: 2px solid #0a8065; /* Green */
+}
+#item_list  /* padding top styling */
+{
+    padding-top: 50px;
+}
